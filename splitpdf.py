@@ -1,3 +1,5 @@
+# split pdfs
+
 from PyPDF2 import PdfReader, PdfWriter
 import os
 
@@ -16,8 +18,7 @@ def split(path, name_of_split):
         file_size_kb = file_size / 1024
         print(f"Size of {output}: {file_size_kb:.2f} KB")
 
-
-
 if __name__ == '__main__':
-    path = 'certs.pdf'
-    split(path, 'cert')
+    path = 'merged_pdf_file_name.pdf'
+    name_of_the_split = "split"
+    split(path, name_of_the_split)
