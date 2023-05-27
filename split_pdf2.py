@@ -31,6 +31,6 @@ def split(path, name_of_split):
     print(f"Size of {output2}: {file_size_kb2:.2f} KB")
 
 if __name__ == '__main__':
-    path = 'merged_pdf_file_name.pdf'
+    path = 'path_file_to_be_splited.pdf'
     name_of_split = "any_name"
     split(path, name_of_split)
