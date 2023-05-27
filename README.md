@@ -8,7 +8,7 @@ This repository provides Python scripts that demonstrate different operations on
 1. `merge_pdfs.py`: This script merges multiple PDF files into a single PDF file.
 2. `split_pdf.py`: This script splits a PDF file into individual pages or separate PDF files.
 3. `pdf_to_image.py`: This script converts a PDF file into a series of images.
-4. `img_pdf.py`: This script converts images into a pdf file.
+4. `image_to_pdf.py`: This script converts images into a pdf file.
 
 ## Installation
 
